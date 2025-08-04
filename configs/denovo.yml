@@ -1,0 +1,25 @@
+[lib]
+Cores: ./frag_lib/Cores.sdf
+Frags: ./frag_lib/Frags.sdf
+
+[model]
+GPPM: ./weights/GPPM.pth
+TAPM: ./weights/TAPM.pth
+Pocket2ED: ./weights/Pocket2ED.pt
+
+[sample]
+output_dir: ./cases/output_denovo
+receptor: ./cases/example_rec.pdb
+reference_core:
+x: -92.553
+y: -16.255
+z: 160.274
+key_res:
+iteration:
+output_mols_num: 1000
+bucket_size: 5
+sim_threshold: 0.5
+seed: 42
+num_cpu: 16
+batch_size: 64
+device_type: cuda
