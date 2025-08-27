@@ -67,7 +67,25 @@ Then, you can run ED2Mol with your yml file.
 CUDA_VISIBLE_DEVICES="0" python Generate.py --config path-to-your.yml
 ```
 
+## Section 4: Citation
 
-## Section 4: License
+If you find this work interesting, please cite
+
+Li, M., Song, K., He, J. et al. Electron-density-informed effective and reliable de novo molecular design and optimization with ED2Mol. Nat Mach Intell 7, 1355–1368 (2025). https://doi.org/10.1038/s42256-025-01095-7
+
+```
+@article{li2025electron,
+  title={Electron-density-informed effective and reliable de novo molecular design and optimization with ED2Mol},
+  author={Li, Mingyu and Song, Kun and He, Jixiao and Zhao, Mingzhu and You, Gengshu and Zhong, Jie and Zhao, Mengxi and Li, Arong and Chen, Yu and Li, Guobin and others},
+  journal={Nature Machine Intelligence},
+  volume={7},
+  number={8},
+  pages={1355--1368},
+  year={2025},
+  publisher={Nature Publishing Group UK London}
+}
+```
+
+## Section 5: License
 
 MIT
