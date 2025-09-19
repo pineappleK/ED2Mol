@@ -26,7 +26,7 @@ mamba activate ed2mol
 ## Section 2: Weights and Datasets
 The model weights can be downloaded at the [release page](https://github.com/pineappleK/ED2Mol/releases/download/v1.0/weights.zip).
 ```shell
-wget https://github.com/pineappleK/ED2Mol/releases/download/v1.0/weights.zip
+wget https://github.com/pineappleK/ED2Mol/releases/download/v1.1/weights.zip
 unzip weights.zip
 ```
 
