@@ -25,8 +25,8 @@ class EGNNlayer(MessagePassing):
     
     def forward(self, edge_index, x, coords, edge_feat):
 
-        rela_diff = coords[edge_index[0]] - coords[edge_index[1]]
-        dist = th.norm(coords[edge_index[0]] - coords[edge_index[1]], dim = 1, keepdim = True)
+        rela_diff = coords[edge_index[0]] - coords[edge_index[0]]
+        dist = th.norm(coords[edge_index[0]] - coords[edge_index[0]], dim = 1, keepdim = True)
         
         edge_feat = th.cat([edge_feat, dist], 1)
         
