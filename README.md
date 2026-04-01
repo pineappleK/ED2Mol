@@ -13,7 +13,7 @@ We use mamba here. You can install it using `conda install mamba`. If you encoun
 ```shell
 mamba create -n ed2mol
 mamba activate ed2mol
-mamba install install python=3.8.19 pytorch=1.13.1 pytorch-cuda=11.7 rdkit=2023.03.2 plip biopython cctbx-base scikit-learn -y -c pytorch -c nvidia -c conda-forge
+mamba install python=3.8.19 pytorch=1.13.1 pytorch-cuda=11.7 rdkit=2023.03.2 plip biopython cctbx-base scikit-learn -y -c pytorch -c nvidia -c conda-forge
 pip install torch_geometric==2.3.0
 ```
 
